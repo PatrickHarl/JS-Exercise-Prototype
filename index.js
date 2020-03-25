@@ -74,6 +74,7 @@ Person.prototype.toString = function(){
         + should initialize with an `tank` at 0
         + should initialize with an `odometer` at 0
     - Give cars the ability to get fueled with a `.fill(gallons)` method. Add the gallons to `tank`.
+    
     - STRETCH: Give cars ability to `.drive(distance)`. The distance driven:
         + Should cause the `odometer` to go up.
         + Should cause the the `tank` to go down taking `milesPerGallon` into account.
